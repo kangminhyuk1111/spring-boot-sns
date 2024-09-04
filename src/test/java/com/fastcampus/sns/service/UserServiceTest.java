@@ -65,7 +65,7 @@ public class UserServiceTest {
     }
 
     @Test
-    public void 회원가입시_userName이_이미_존재하는_경우() {
+    public void 로그인시_아이디가_틀린경우() {
 
         String userName = "userName";
         String password = "userName";

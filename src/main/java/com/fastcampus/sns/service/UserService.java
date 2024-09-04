@@ -37,7 +37,7 @@ public class UserService {
 
         // 비밀번호 체크
         if(!userEntity.getPassword().equals(password)) {
-
+            throw new SnsApplicationException();
         }
 
         // 토큰 생성
